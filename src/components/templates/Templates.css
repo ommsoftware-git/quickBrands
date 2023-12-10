@@ -1,0 +1,71 @@
+.filterCard ul {
+
+list-style: none;
+}
+.filterCard ul li{
+margin-bottom: 1rem;
+border-bottom: 1px solid #00000085;
+
+}
+.filterCard ul li a{
+text-decoration: none;
+color: #000;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 1px;
+
+}
+.filterCard ul li a:hover{
+color: blue;
+}
+
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border-radius:10px;
+    cursor:pointer;
+  }
+.front h2{
+    font-size: 14px;
+    white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+padding: 10px;
+
+}
+.back{
+    display: flex;
+    justify-content: center;
+ align-items: center;
+}
+  
+  .card .content{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  .card .content .back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: #f1f1f1e6;
+    transition:1s;   
+    z-index:1;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .from-left{
+    top:0;
+    left:-100%;
+  }
+  .card:hover .content .from-left {
+     left:0%;
+  }
+  

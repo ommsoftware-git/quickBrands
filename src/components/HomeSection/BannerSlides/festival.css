@@ -1,0 +1,14 @@
+.festivalSection{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.nav-pills .nav-link {
+    border-radius: var(--bs-nav-pills-border-radius);
+    background: #fff;
+}
+
+.dateTab p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
