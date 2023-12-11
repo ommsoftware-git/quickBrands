@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/quickBrands/static/css/main.6c1b0267.css",
+    "main.js": "/quickBrands/static/js/main.918ab73c.js",
+    "static/js/787.eb8a7b23.chunk.js": "/quickBrands/static/js/787.eb8a7b23.chunk.js",
+    "static/media/bgbanner.jpg": "/quickBrands/static/media/bgbanner.0082df99b4cfb7d20ada.jpg",
+    "index.html": "/quickBrands/index.html",
+    "main.6c1b0267.css.map": "/quickBrands/static/css/main.6c1b0267.css.map",
+    "main.918ab73c.js.map": "/quickBrands/static/js/main.918ab73c.js.map",
+    "787.eb8a7b23.chunk.js.map": "/quickBrands/static/js/787.eb8a7b23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c1b0267.css",
+    "static/js/main.918ab73c.js"
+  ]
+}
